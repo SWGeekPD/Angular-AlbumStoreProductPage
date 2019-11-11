@@ -1,0 +1,11 @@
+<div class="row tracklisting">
+  <ul>
+    <li *ngFor="let product of products">
+      <div class="col-sm-5">
+        <span class="product-id">{{product.id}}</span>
+        <span class="artist-name">{{product.artistName}}</span>
+        <span class="album-name">{{product.albumName}}</span>
+      </div>
+    </li>
+  </ul>
+</div>
